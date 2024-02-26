@@ -21,7 +21,7 @@ classes = {"Amenity": Amenity, "City": City,
 
 
 class DBStorage:
-    """interaacts with the MySQL database"""
+    """interacts with the MySQL database"""
     __engine = None
     __session = None
 
@@ -52,11 +52,11 @@ class DBStorage:
         return (new_dict)
 
     def new(self, obj):
-        """add the object to the current database session"""
+        """adding the object to the current database session"""
         self.__session.add(obj)
 
     def save(self):
-        """commit all changes of the current database session"""
+        """commiting changes of the current database session"""
         self.__session.commit()
 
     def delete(self, obj=None):
