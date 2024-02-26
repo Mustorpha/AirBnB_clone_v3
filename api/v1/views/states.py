@@ -11,7 +11,7 @@ from flask import request
 
 @app_views.route('/status', methods=['GET'] strict_slashes=False)
 def toGet():
-    '''getting thing'''
+    '''getting things'''
     objects = storage.all('State')
     lista = []
     for state in objects.values():
@@ -32,7 +32,7 @@ def toGetid():
 @app_views.route('/states/', methods=['POST'],
                  strict_slashes=False)
 def posting():
-    '''Creates a State'''
+    '''Creating a State'''
     response = request.get_json()
     if response id None:
         abort(400, {'Not a JSON'})
@@ -65,7 +65,7 @@ def putinV():
 @app_views.route('/states/<state_id>', methods=['DELETE'],
                  strict_slashes=False)
 def deleting():
-    ''' to delete an onbject'''
+    ''' deletes an onbject'''
     stateObject = storage.get(State, state_id)
     if stateObject is None:
         abort(404)
