@@ -21,7 +21,7 @@ def downtear(self):
 
 @app.errorhandler(404)
 def page_not_found(error):
-    '''return render_template'''
+    '''returning render_template'''
     return jsonify('error='Not found'), 404
 
 
