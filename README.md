@@ -159,6 +159,8 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 
 Mustorpha Jamiu - [Github](https://github.com/mustorpha) / [Twitter](https://twitter.com/mustorphajamiu)
 
+Victor Ukpongette - [Github](https://github.com/MrVeeJon) / [Twitter](https://twitter.com/SirVicJonathan)
+
 
 Second part of Airbnb: Joann Vuong
 ## License
