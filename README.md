@@ -158,7 +158,6 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
 Mustorpha Jamiu - [Github](https://github.com/mustorpha) / [Twitter](https://twitter.com/mustorphajamiu)
-
 Victor Ukpongette - [Github](https://github.com/MrVeeJon) / [Twitter](https://twitter.com/SirVicJonathan)
 
 
