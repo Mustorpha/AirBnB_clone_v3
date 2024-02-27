@@ -22,7 +22,7 @@ def toGet():
 @app_views.route('/states/<string:stateid>', methods=['GET'],
                  strict_slashes=False)
 def toGetid():
-    '''Updates a State object id'''
+    '''Updating State object id'''
     objects = storage.get('State', 'state_id')
     if objects is None:
         abort(404)
@@ -32,7 +32,7 @@ def toGetid():
 @app_views.route('/states/', methods=['POST'],
                  strict_slashes=False)
 def posting():
-    '''Creating a State'''
+    '''Creates a State'''
     response = request.get_json()
     if response id None:
         abort(400, {'Not a JSON'})
@@ -65,7 +65,7 @@ def putinV():
 @app_views.route('/states/<state_id>', methods=['DELETE'],
                  strict_slashes=False)
 def deleting():
-    ''' deletes an onbject'''
+    ''' deleting an onbject'''
     stateObject = storage.get(State, state_id)
     if stateObject is None:
         abort(404)
