@@ -157,6 +157,7 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang) 
 Mustorpha Jamiu - [Github](https://github.com/mustorpha) / [Twitter](https://twitter.com/mustorphajamiu)
+Victor Ukpongette - [Github](https://github.com/MrVeeJon) / [Twitter](https://twitter.com/SirVicJonathan)
 =======
 
 >>>>>>> aac5acdaf910012588914eb3717c1dfbc215cbd8
