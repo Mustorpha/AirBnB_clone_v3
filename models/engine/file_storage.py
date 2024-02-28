@@ -79,7 +79,7 @@ class FileStorage:
         return None
 
     def count(self, cls=None):
-        """ counts """
+        """ count function """
         data = self.all(cls)
         if cls in classes.values():
             data = self.all(cls)
